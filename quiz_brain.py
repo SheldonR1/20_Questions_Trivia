@@ -17,7 +17,7 @@ class quizManager:
      def checkAnswer(self,user_answer, correct_answer):
           if user_answer.lower()==correct_answer.lower():
                print("        you got it!")
-               self.score=+1
+               self.score+=1
           else:
                print("        that's wrong ")
           print(f"the correct answer is {correct_answer}")
